@@ -1,4 +1,4 @@
-/* ------------------Header Section____________________ */
+ /*------------------Header Section____________________ */
 
 .header {
 	position: absolute;
@@ -17,19 +17,27 @@
 	margin-left: 15px;
 }
 
+
 #search {
     position: relative;
     width: 591px;
     margin-left: 120px;
     margin-top: -37px;
+    border: 1px solid #E0E0E0;
+    background: white;
+/*    -webkit-appearance: none;*/
 }
 
 #search input {
     width: 585px;
-    height: 22px;
+    height: 26px;
     font-size: 16px;
     font-family: Arial;
     font-weight: lighter;
+    background: url(img/mic.gif) no-repeat scroll right;
+    /*opacity: 0.5;*/
+	background-size: 50px 20px;
+	background-position: 520px;
 }
 
 #search button {
@@ -42,3 +50,196 @@
     border: none;
     background-color: #0099FF;
 }
+
+.usericon {
+    position: absolute;
+    right: 10px;
+    width: 36px;
+    height: 36px;
+    margin-top: -3px;
+    border-radius: 18px;
+    background: url(img/user_icon.jpg) no-repeat;
+    background-size: 36px 36px;
+}
+
+.bell {
+    position: absolute;
+    right: 60px;
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    margin-top: 4px;
+    background: url(img/bell.png) no-repeat;
+    background-size: 12px 12px;
+    background-color: #484848;
+    background-position: 50% 50%;
+}
+
+.cube {     
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background: #6C6C6C;
+    margin-left: -2px;
+}
+
+.row1 {
+    position: absolute;
+    margin-top: -3px;
+    margin-left: 107px;
+}
+
+.row2 {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 107px;
+}
+
+.row3 {
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 107px;
+}
+
+.me {
+    font-family: Arial;
+    font-size: 12px;
+    color: #6C6C6C;
+    margin-top: 8px;
+    margin-left: 70px;
+}
+
+.topitems {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    width: 220px;
+    height: 30px;
+}
+
+/* ---------------------Sub Header Section-------------------------- */
+
+.subheader {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+#webbox {
+    display: inline-block;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #CC3300;
+    text-align: center;
+    width: 45px;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 120px;
+}
+
+.highlightbar {
+    position: absolute;
+    bottom: 0px;
+    width: 45px;
+    height: 3px;
+    background: #CC3300;
+}
+
+#videosbox {
+    display: inline-block;
+    font-size: 14px;
+    font-family: Arial;
+    color: #6C6C6C;
+    text-align: center;
+    width: 65px;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#newsbox {
+    display: inline-block;
+    font-size: 14px;
+    font-family: Arial;
+    color: #6C6C6C;
+    text-align: center;
+    width: 60px;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#shoppingbox {
+    display: inline-block;
+    font-size: 14px;
+    font-family: Arial;
+    color: #6C6C6C;
+    text-align: center;
+    width: 70px;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#imagesbox {
+    display: inline-block;
+    font-size: 14px;
+    font-family: Arial;
+    color: #6C6C6C;
+    text-align: center;
+    width: 60px;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+#morebox {
+    display: inline-block;
+    font-size: 14px;
+    font-family: Arial;
+    text-align: center;
+    color: #6C6C6C;
+    width: 55px;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+.arrow-down {
+    /*display: inline-block;*/
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #6C6C6C;
+    margin-left: 44px;
+    margin-top: -10px;
+}
+
+#searchtoolsbox {
+    display: inline-block;
+    font-size: 14px;
+    font-family: Arial;
+    text-align: center;
+    color: #6C6C6C;
+    width: 100px;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 12px;
+}
+
+a:link {
+    color:#6C6C6C;
+    text-decoration: none;
+}
+
+#searchtoolsbox:hover {
+    color: black;
+}
+
+/*a:visited {color:#6C6C6C;}
+a:hover {color:#000000;}*/
+/*a:active {color:#6C6C6C;}
